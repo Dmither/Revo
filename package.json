@@ -1,0 +1,24 @@
+{
+  "name": "revo",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/file/1Qjxj2WqL46vyE03Itqpev/Freebie_Coffee-(Copy)?type=design&node-id=0-2&mode=design&t=KUOYqTA4YtQdVtzY-0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmither/Revo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmither/Revo/issues"
+  },
+  "homepage": "https://github.com/Dmither/Revo#readme",
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}

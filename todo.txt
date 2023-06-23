@@ -1,0 +1,2 @@
+1. what is the color of header? change header with scroll.
+2. add color scheme changing

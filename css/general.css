@@ -1,0 +1,79 @@
+:root {
+	--color-primary: #415167;
+	--color-accent: #c7a17a;
+	--color-gray: #edf0f5;
+	--color-bg: #f9fbff;
+	--color-main: #232c38;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-accent: #f9f5e8;
+		--color-gray: #232c38;
+		--color-bg: #151d28;
+		--color-main: #f9fbff;
+	}
+}
+
+body {
+	background-color: var(--color-bg);
+	font-family: Nunito;
+	font-size: 16px;
+	line-height: 1.25;
+	color: var(--color-main);
+}
+
+/* font preferences ==================================== */
+
+.display-large {
+	font-family: Montserrat;
+	font-weight: 900;
+	font-size: 54px;
+	line-height: 1.29;
+	color: var(--color-primary);
+}
+.display-medium {
+	font-family: Montserrat;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 1.13;
+	color: var(--color-primary);
+}
+
+.title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.17;
+}
+
+.sub-title,
+.price {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.sub-title {
+	color: var(--color-primary);
+}
+
+.price {
+	color: var(--color-accent);
+}
+
+.description {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.button {
+	font-weight: 700;
+	padding: 6px 16px 8px;
+	color: var(--color-primary);
+}
+
+/*  */
+
+.card-horizontal {
+  
+}
