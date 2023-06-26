@@ -6,21 +6,13 @@
 	--color-main: #232c38;
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-accent: #f9f5e8;
-		--color-gray: #232c38;
-		--color-bg: #151d28;
-		--color-main: #f9fbff;
-	}
-}
-
 body {
 	background-color: var(--color-bg);
 	font-family: Nunito;
 	font-size: 16px;
 	line-height: 1.25;
 	color: var(--color-main);
+	scroll-behavior: smooth;
 }
 
 /* font preferences ==================================== */
